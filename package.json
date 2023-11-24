@@ -1,0 +1,19 @@
+{
+  "name": "slack_server_status_bot",
+  "version": "0.1.0",
+  "description": "Slack bot for viewing and adjusting the on/off state of the test servers",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.6.0",
+    "aws-sdk": "^2.1033.0",
+    "dotenv": "^10.0.0",
+    "node-persist": "^3.1.0",
+    "node-schedule": "^2.0.0"
+  }
+}

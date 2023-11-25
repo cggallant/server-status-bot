@@ -4,18 +4,18 @@ A Slack bot that allows staff to turn test servers on/off as needed rather than 
 
 # Environment variables needed:
 
-    The names of the two channels to post to
-    ```
-    POST_TO_CHANNEL_DEFAULT="general"                                 
-    POST_TO_CHANNEL_SERVER2="server-2"
-    ```
+The names of the two channels to post to
+```
+POST_TO_CHANNEL_DEFAULT="general"                                 
+POST_TO_CHANNEL_SERVER2="server-2"
+```
 
     In Slack API: Basic Info, Signing Secret:
     ```SLACK_SIGNING_SECRET=""```
 
     In Slack API: OAuth & Permissions for what the bot can do:
-        *app_mentions:read*
-        *chat:write*
+        **app_mentions:read**
+        **chat:write**
 
         then add to the workspace
 

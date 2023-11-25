@@ -16,10 +16,10 @@ SLACK_SIGNING_SECRET=""
 ```
 
 In Slack API: OAuth & Permissions for what the bot can do:
-    **app_mentions:read**
-    **chat:write**
-
-    then add to the workspace
+    
+**app_mentions:read**
+**chat:write**
+Then add to the workspace. When you do so, the bot token is displayed:
 
 ```
 SLACK_BOT_TOKEN=""
@@ -50,7 +50,7 @@ In Slack API: Interactivity & Shortcuts so the bot can listen for button clicks
 <ngrok path>/slack/events
 ```
 
-    don't forget to click Save Changes (not automatic like in OAuth & Permissions view)
+_Don't forget to click Save Changes (the URI is not automatically saved like in the OAuth & Permissions view)_
 
 # AWS policy for EC2 instances (Replace AccountNumber and InstanceID in the resource arn paths below)
 
